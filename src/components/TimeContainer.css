@@ -4,7 +4,7 @@ span {
   vertical-align: top;
 }
 
-#time-box {
+.time-box {
   width: 45px;
   height: 45px;
   border: solid 2px whitesmoke;
@@ -14,4 +14,8 @@ span {
   display: inline-block;
   margin: 10px;
   padding: 20px;
+}
+
+.time-box > div {
+  font-size: calc(12px + 3vmin);
 }

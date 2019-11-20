@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <container id="timer">
+      <div id="timer">
         <div>
           <TimeContainer label="Days" time={parseInt(time.days)} />
           <TimeContainer label="Hours" time={parseInt(time.hours)} />
@@ -38,7 +38,7 @@ function App() {
           <TimeContainer label="Seconds" time={time.seconds} />
         </div>
         <button type="button" onClick={timerHandler}>{isRunning}</button>
-      </container>
+      </div>
     </div>
   );
 }
